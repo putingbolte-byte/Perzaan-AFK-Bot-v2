@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "Noobsec",
   "bot-account": {
-    "username": "server_guard",
+    "username": "Noobsecc",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "SatnamHub.aternos.me",
-    "port": 54100,
-    "version": "1.21.1"
+    "ip": "strawberry.fps.ms",
+    "port": 25908,
+    "version": "1.21.4"
   },
   "position": {
     "enabled": true,
@@ -18,22 +18,18 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "Perzuu"
+      "enabled": false,
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 500,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Perzaan Gaming!",
-        "I like to play Minecraft!"
-      ]
+      "messages": []
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -62,30 +58,30 @@
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": true,
-    "chat": true,
-    "console-commands": true
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
-    "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "enabled": false,
+    "webhookUrl": "",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
